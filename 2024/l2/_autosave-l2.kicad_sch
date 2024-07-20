@@ -1113,6 +1113,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Driver_Motor:VNH5019A-E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2708,6 +2829,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 52.07) (xy 203.2 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80ccf2cb-6a33-4808-8ee4-8c190931777e")
+	)
+	(wire
+		(pts
 			(xy 193.04 67.31) (xy 203.2 67.31)
 		)
 		(stroke
@@ -2715,6 +2846,16 @@
 			(type default)
 		)
 		(uuid "892385e2-5d91-4ca8-9e26-92d55c8953c0")
+	)
+	(wire
+		(pts
+			(xy 41.91 58.42) (xy 52.07 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d2e28e3-2728-4a0d-bce0-b9e92e85383e")
 	)
 	(wire
 		(pts
@@ -2766,6 +2907,17 @@
 		)
 		(uuid "f85e5466-10aa-4f30-b955-4bd5b7c6d70f")
 	)
+	(label "PWM"
+		(at 193.04 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00ec84b1-1fd6-454a-be0f-cbe3d70b7300")
+	)
 	(label "RXL3"
 		(at 182.88 24.13 0)
 		(fields_autoplaced yes)
@@ -2787,6 +2939,17 @@
 			(justify left bottom)
 		)
 		(uuid "62b5ab1a-e731-4285-9dc4-5fcf28cec6c3")
+	)
+	(label "PWM"
+		(at 41.91 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "890b39f2-ceda-46e2-a708-dd845ec9269d")
 	)
 	(label "RXL3"
 		(at 193.04 64.77 0)
@@ -2992,6 +3155,74 @@
 			(project "l2"
 				(path "/6e23b0dc-b56a-4591-91ab-7fa94dae0df0"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 55.88 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f98a5b3-d8da-4239-881b-f0a72f05dcc3")
+		(property "Reference" "R1"
+			(at 55.88 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 55.88 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff4ffd68-7e34-46cc-b718-ed0956ba4cf5")
+		)
+		(pin "2"
+			(uuid "294ab2c4-f27e-4d6b-a672-4f0943645bbd")
+		)
+		(instances
+			(project ""
+				(path "/6e23b0dc-b56a-4591-91ab-7fa94dae0df0"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3482,7 +3713,7 @@
 	)
 	(symbol
 		(lib_id "Relay_SolidState:TLP175A")
-		(at 105.41 45.72 0)
+		(at 74.93 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3491,23 +3722,25 @@
 		(fields_autoplaced yes)
 		(uuid "98e28b5d-220c-47ec-af74-83c2d19ca1b4")
 		(property "Reference" "U3"
-			(at 105.41 36.83 0)
+			(at 80.01 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "TLP175A"
-			(at 105.41 39.37 0)
+			(at 80.01 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_SO:MFSOP6-4_4.4x3.6mm_P1.27mm"
-			(at 105.41 53.34 0)
+			(at 67.31 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,7 +3750,7 @@
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=13665&prodName=TLP175A"
-			(at 105.41 45.72 0)
+			(at 74.93 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +3760,7 @@
 			)
 		)
 		(property "Description" "MOSFET Photorelay 1-Form-A, Voff 60V, Ion 100mA, SOP6"
-			(at 105.41 45.72 0)
+			(at 74.93 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
