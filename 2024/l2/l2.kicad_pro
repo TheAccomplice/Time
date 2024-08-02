@@ -401,6 +401,10 @@
     [
       "6e23b0dc-b56a-4591-91ab-7fa94dae0df0",
       "Root"
+    ],
+    [
+      "07f2b048-6ef5-43cf-a929-1dfccb679372",
+      "Motor Driver"
     ]
   ],
   "text_variables": {}
