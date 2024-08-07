@@ -2339,7 +2339,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DEV-15583:MODULE_DEV-15583"
+		(property "Footprint" "Board:MODULE_DEV-15583"
 			(at 220.98 64.77 0)
 			(effects
 				(font
