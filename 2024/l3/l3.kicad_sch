@@ -5768,7 +5768,7 @@
 		)
 	)
 	(sheet
-		(at 187.96 137.16)
+		(at 198.12 114.3)
 		(size 40.64 25.4)
 		(fields_autoplaced yes)
 		(stroke
@@ -5780,7 +5780,7 @@
 		)
 		(uuid "4e31c085-e434-4946-b59f-8689b842e1c9")
 		(property "Sheetname" "ToF"
-			(at 187.96 136.4484 0)
+			(at 198.12 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5789,7 +5789,7 @@
 			)
 		)
 		(property "Sheetfile" "l3_tof.kicad_sch"
-			(at 187.96 163.1446 0)
+			(at 198.12 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
