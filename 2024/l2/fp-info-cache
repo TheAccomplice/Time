@@ -1,4 +1,4 @@
-23529440889090818
+23531177662784547
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -370,6 +370,13 @@ Seeeduino XIAO SAMD 21 TFT
 0
 14
 14
+Board
+VNH5019A-E_SO-30
+MultiPowerSO-30 3EP 16.0x17.2mm Pitch 1mm (http://www.st.com/resource/en/datasheet/vnh2sp30-e.pdf)
+MultiPowerSO-30 3EP 16.0x17.2mm Pitch 1mm
+0
+63
+33
 Board
 xiao-esp32c3
 

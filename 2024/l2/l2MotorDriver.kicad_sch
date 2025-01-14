@@ -5408,7 +5408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:ST_MultiPowerSO-30"
+		(property "Footprint" "Board:VNH5019A-E_SO-30"
 			(at 214.63 78.74 0)
 			(effects
 				(font
@@ -5863,7 +5863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:ST_MultiPowerSO-30"
+		(property "Footprint" "Board:VNH5019A-E_SO-30"
 			(at 114.3 142.24 0)
 			(effects
 				(font
@@ -6436,7 +6436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:ST_MultiPowerSO-30"
+		(property "Footprint" "Board:VNH5019A-E_SO-30"
 			(at 219.71 139.7 0)
 			(effects
 				(font
@@ -6668,7 +6668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:ST_MultiPowerSO-30"
+		(property "Footprint" "Board:VNH5019A-E_SO-30"
 			(at 110.49 77.47 0)
 			(effects
 				(font
